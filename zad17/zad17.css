@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.container {
+    background-color: rgb(29, 194, 112);
+    width: 100dvw;
+    height: 100dvh;
+    display: flex;
+    flex-direction: column;
+    .header_container {
+        height: 10%;
+        display: flex;
+        .header {
+            width: 50%;
+        }
+    }
+    .main {
+        background-color: rgb(204, 250, 223);
+        height: 80%;
+    }
+    .footer_container {
+        display: flex;
+        height: 10%;
+        .footer{
+            width: 25%;
+        }
+    }
+}

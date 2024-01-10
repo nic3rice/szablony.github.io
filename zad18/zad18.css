@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.container {
+    background-color: rgb(85, 175, 85);
+    width: 100dvw;
+    height: 100dvh;
+    display: flex;
+    flex-direction: column;
+    .header_container {
+        display: flex;
+        height: 20%;
+        .header {
+            width: 50%;
+        }
+    }
+    .banner {
+        height: 10%;
+        background-color: rgb(99, 68, 47);
+    }
+    .main_container {
+        display: flex;
+        height: 60%;
+        .main {
+            width: 50%;
+        }
+    }
+    .footer {
+        height: 10%;
+        background-color: rgb(99, 68, 47);
+    }
+}

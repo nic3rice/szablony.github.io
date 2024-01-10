@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.container {
+    width: 100dvw;
+    height: 100dvh;
+    background-color: red;
+    display: flex;
+    flex-direction: column;
+    .menu {
+        display: flex;
+        height: 25%;
+        .menu_item {
+            width: 20%;
+            background-color: green;
+            height: 100%;
+        }
+    }
+    .main {
+        height: 65%;
+        background-color: aliceblue;
+    }
+    .footer {
+        height: 10%;
+        background-color: green;
+    }
+}

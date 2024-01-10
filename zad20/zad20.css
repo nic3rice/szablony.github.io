@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background-color: blue;
+    width: 100dvw;
+    height: 100dvh;
+    display: flex;
+    flex-direction: column;
+    .banner1 {
+        height: 10%;
+    }
+    .menu {
+        height: 5%;
+        display: flex;
+        .menu_item {
+            width: 33.333333333%;
+            background-color: rgb(181, 213, 240);
+        }
+        .darker {
+            background-color: rgb(122, 174, 218);
+        }
+    }
+    .banner2 {
+        height: 2%;
+    }
+    .main {
+        display: flex;
+        height: 75%;
+        background-color: rgb(181, 213, 240);
+        .block {
+            width: 33.33333333333333%;
+        }
+        .darker {
+            background-color: rgb(122, 174, 218);
+        }
+    }
+    .footer {
+        height: 8%;
+    }
+}

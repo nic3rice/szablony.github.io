@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.container {
+    display: flex;
+    width: 100dvw;
+    height: 100dvh;
+    flex-direction: column;
+    background-color: red;
+    .banner {
+        width: 100%;
+        background-color: purple;
+        height: 5dvh;
+    }
+    .main {
+        display: flex;
+        height: 100%;
+        .left {
+            width: 30%;
+            background-color: plum;
+            height: 100%;
+        }
+        .right {
+            width: 70%;
+            background-color: rgb(255, 255, 255);
+        }
+    }
+}

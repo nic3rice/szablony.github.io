@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.container {
+    background-color: rgb(113, 161, 24);
+    width: 100dvw;
+    height: 100dvh;
+    display: flex;
+    flex-direction: column;
+    .banner {
+        height: 10%;
+        width: 100%;
+    }
+    .main {
+        height: 88%;
+        display: flex;
+        .left {
+            width: 30%;
+            background-color: rgb(154, 116, 243);
+        }
+        .right {
+            width: 70%;
+            display: flex;
+            flex-direction: column;
+            .right1{
+                background-color: rgb(212, 240, 169);
+                height: 40%;
+            }
+            .right2{
+                background-color: rgb(134, 151, 95);
+                height: 60%;
+            }
+        }
+    }
+    .footer {
+        height: 2%;
+    }
+}

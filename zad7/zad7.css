@@ -1,0 +1,27 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    background-color: red;
+    width: 100dvw;
+    height: 100dvh;
+    .main {
+        display: flex;
+        height: 85%;
+        .left {
+            background-color: palevioletred;
+            width: 40%;
+        }
+        .right {
+            background-color: rgb(126, 62, 163);
+            width: 60%;
+        }
+    }
+    .footer {
+        background-color: gray;
+        height: 15%;
+    }
+}

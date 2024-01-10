@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.container {
+    background-color: rgb(165, 118, 99);
+    width: 100dvw;
+    height: 100dvh;
+    display: flex;
+    flex-direction: column;
+    .menu_container{
+        display: flex;
+        height: 20%;
+        .logo {
+            width: 30%;
+        }
+        .menu {
+            width: 70%;
+        }
+    }
+    .banner {
+        height: 2%;
+        background-color: rgb(70, 29, 19);
+    }
+    .main {
+        height: 76%;
+        display: flex;
+        .left {
+            width: 50%;
+        }
+        .right {
+            width: 50%;
+        }
+    }
+    .footer {
+        height: 2%;
+        background-color: rgb(70, 29, 19);
+    }
+}

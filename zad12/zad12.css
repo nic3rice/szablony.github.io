@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    padding: 0%;
+}
+.container {
+    background-color: aqua;
+    width: 100dvw;
+    height: 100dvh;
+    display: flex;
+    flex-direction: column;
+    .banner {
+        height: 5%;
+        background-color: rgb(23, 158, 158);
+    }
+    .cookie {
+        height: 2%;
+        background-color: brown;
+    }
+    .main {
+        height: 91%;
+        background-color: rgb(130, 221, 221);
+        display: flex;
+        .left {
+            width: 70%;
+        }
+        .right {
+            width: 30%;
+        }
+    }
+    .footer {
+        height: 2%;
+    }
+}
